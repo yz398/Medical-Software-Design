@@ -37,6 +37,9 @@ pip install -r requirements.txt
 ```
 to install those requirements in the currently activated virtual environment.
 
+*Note: Windows machines can have difficulty installing packages like* `numpy` *that require access to C and Fortran compilers in your local system.  For that reason, you may want to use the Anaconda Setup below for Windows setups.*
+
+
 ## Anaconda Setup
 
 [Install anaconda](https://docs.continuum.io/anaconda/install/). 
