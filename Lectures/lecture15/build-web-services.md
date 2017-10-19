@@ -6,10 +6,10 @@ Build a web service that implements the following API routes.
 
 * GET /api/hello/:name - returns a string: "Hello World <:name>"
 * POST /api/add which takes the following JSON data:
-```
-{
-  "a": <some number>,
-  "b": <some number>
-}
-```
-Return the sum and status code 200 for a successful calculation. If not successful (b/c of validation) return the proper error [status code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes).
+  ```
+  {
+    "a": <some number>,
+    "b": <some number>
+  }
+  ```
+  Return the sum and status code 200 for a successful calculation. If not successful (b/c of validation) return the proper error [status code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes).
