@@ -5,6 +5,14 @@ In this lecture we'll learn how to leverage the [flask](http://flask.pocoo.org/)
 Build a web service that implements the following API routes.
 
 * GET /api/hello/:name - returns a string: "Hello World <:name>"
+* GET /api/data - return a dictionary as JSON that has the following contents
+  ```
+  {
+    "temp": [20, 21, 21],
+    "time": [10, 20, 30],
+    "unit": "s"
+  }
+  ```
 * POST /api/add which takes the following JSON data:
   ```
   {
