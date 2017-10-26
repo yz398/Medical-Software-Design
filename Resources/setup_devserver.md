@@ -3,10 +3,10 @@ To configure your virtual machine, you must first install conda and then setup y
 
 To install conda on your development machine, first `ssh` into your machine and then run the following commands. As the installer runs, select yes for the prompts and use the default install location.
 ```sh
-wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
-chmod +x Miniconda3-latest-Linux-x86_64.sh
-./Miniconda3-latest-Linux-x86_64.sh
-source ~/.bashrc
+wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh # Fetch this file from the internet to your machine
+chmod +x Miniconda3-latest-Linux-x86_64.sh # Allow this file to be executable
+./Miniconda3-latest-Linux-x86_64.sh # Execute this shell script
+source ~/.bashrc # Re-source bashrc to pull in latest config
 ```
 
 After everything has run, you should then be able to run `which conda` successfully. 
