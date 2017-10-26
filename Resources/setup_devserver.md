@@ -18,3 +18,5 @@ FLASK_APP=test.py flask run --host 0.0.0.0
 ```
 
 Setting the `host` to 0.0.0.0 tells flask to run the server locally but to allow external connections (from outside your remote machine) to make requests to your development server.
+
+You should now be able to make requests to your server from anywhere on the internet at port 5000. For example, you should be able to hit a url like `http://vcm-1866.vm.duke.edu:5000/` except with your VM name instead of mine. 
