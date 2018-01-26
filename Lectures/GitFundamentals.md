@@ -1,5 +1,5 @@
 # GitFundamentals
-## Lecture 02
+## Markdown Formatting
 \*.md files indicate markdown formatting on render of content: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ## Completing Tasks with Git
@@ -49,13 +49,14 @@ that you do not want to share with collaborators.  Additionally, you may have
 test data and scripts that you also don't want to share.  Instead of having
 these files constantly show up in your `git status` output, you can tell git to
 ignore these files by creating a `.gitignore` files that contains file and
-directory name patterns that you want to ignore.  
+directory name patterns that you want to ignore.  If there are files that you
+very commonly need to ignore in your repositories, you can add them to a file
+in your home directory: `$HOME/.gitignore_global`.
 
-vim workflow:
-  + vim filename
-  + Type `i` to go into Insert mode
-  + Type amazing code
-  + Type `Esc` to exit Insert mode and go into Command mode
-  + Type `:w` - write file
-  + Type `:q` - quit
-  + OR combine with `:wq`
+## VIM Workflow:
+* `vim filename`
+* Type `i` to go into Insert mode (how you can edit your file)
+* Type `ESC` to exit Insert mode and go into Command mode
+* Type `:w` - write file
+* Type `:q` - quit
+* :sparkles: Shortcut - combine write and quit in one command: `:wq`
