@@ -93,11 +93,3 @@ ignore these files by creating a `.gitignore` files that contains file and
 directory name patterns that you want to ignore.  If there are files that you
 very commonly need to ignore in your repositories, you can add them to a file
 in your home directory: `$HOME/.gitignore_global`.
-
-## VIM Workflow:
-* `vim filename`
-* Type `i` to go into Insert mode (how you can edit your file)
-* Type `ESC` to exit Insert mode and go into Command mode
-* Type `:w` - write file
-* Type `:q` - quit
-* :sparkles: Shortcut :sparkles: Combine write and quit in one command: `:wq`
