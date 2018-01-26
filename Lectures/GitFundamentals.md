@@ -22,6 +22,13 @@ commit.
 ```
 git diff
 ```
+Can I look at a diff for a local file compared to a remote file (e.g.,
+something on `origin`)?
+```
+# yes!
+git diff $REMOTE/$BRANCH:$REMOTE/PATH/FILE LOCALPATH/FILE
+```
+
 * How do I queue files to be added / removed in the next commit?
 ```
 git add $FILENAME
