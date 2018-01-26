@@ -30,7 +30,7 @@ git rm $FILENAME
 * How do I commit changes to the repository version history on my local computer?
 ```
 git commit
-'''
+```
 * How do I send or get committed changes from GitHub (your default remote `origin`)?
 ```
 git push
@@ -39,10 +39,17 @@ git pull
 * How do I figure out what remote version of my repository are linked to my local repository?
 ```
 git remote
-'''
+```
 You can add, remove and modify remote URLs with this same command.
 
-`.gitignore`: patterns in file or directory names that we want git to ignore by default in version history management
+
+## Ignoring local files from git control
+Text editors and IDEs can create a lot of temporary files in your repository
+that you do not want to share with collaborators.  Additionally, you may have
+test data and scripts that you also don't want to share.  Instead of having
+these files constantly show up in your `git status` output, you can tell git to
+ignore these files by creating a `.gitignore` files that contains file and
+directory name patterns that you want to ignore.  
 
 vim workflow:
   + vim filename
