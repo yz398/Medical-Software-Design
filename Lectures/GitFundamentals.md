@@ -1,4 +1,4 @@
-# GitFundamentals
+# Git Fundamentals
 ## Markdown Formatting
 \*.md files indicate markdown formatting on render of content: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
@@ -42,6 +42,35 @@ git remote
 ```
 You can add, remove and modify remote URLs with this same command.
 
+## Bug Fix / Feature Branch Development
+How do I create a new branch to fix a bug / develop a new feature?
+```
+git branch $BRANCHNAME
+
+# then need to change onto that branch to work
+git checkout $BRANCHNAME
+
+# can do both of those steps at once
+git checkout -b $BRANCHNAME
+```
+I want to push a new branch to GitHUb; what do I have to do?
+```
+# the very first time you go to push content to a new branch on the origin, you
+# need to tell the origin to create that branch
+git push --set-origin origin $BRANCHNAME
+
+# once that branch is created, git push will automatically push to the branch
+# that you have specified
+```
+
+## GitHub Issues
+* Issues are used to report bugs, request features, etc.
+* Commits related to issues can automatically trigger action (e.g., closing,
+  fixing) using GitHub keywords:
+  https://help.github.com/articles/closing-issues-using-keywords/
+
+## Pull Requests
+* One way that branches can be merged into `master` is using Pull Requests on GitHub
 
 ## Ignoring local files from git control
 Text editors and IDEs can create a lot of temporary files in your repository
@@ -59,4 +88,4 @@ in your home directory: `$HOME/.gitignore_global`.
 * Type `ESC` to exit Insert mode and go into Command mode
 * Type `:w` - write file
 * Type `:q` - quit
-* :sparkles: Shortcut - combine write and quit in one command: `:wq`
+* :sparkles: Shortcut :sparkles" Combine write and quit in one command: `:wq`
