@@ -88,4 +88,4 @@ in your home directory: `$HOME/.gitignore_global`.
 * Type `ESC` to exit Insert mode and go into Command mode
 * Type `:w` - write file
 * Type `:q` - quit
-* :sparkles: Shortcut :sparkles" Combine write and quit in one command: `:wq`
+* :sparkles: Shortcut :sparkles: Combine write and quit in one command: `:wq`
