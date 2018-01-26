@@ -31,6 +31,11 @@ git rm $FILENAME
 ```
 git commit
 ```
+
+:sparkles: Shortcut :sparkles: If you want to commit changes for all modified
+files that have been previously added to the repository, you can add an commit
+using the following command: `git commit -am 'commit message'`.
+
 * How do I send or get committed changes from GitHub (your default remote `origin`)?
 ```
 git push
