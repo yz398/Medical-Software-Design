@@ -4,7 +4,7 @@
 1. Create an account on GitHub (https://github.com).
 
 1. Download and install `git` at https://git-scm.com.  We will
-   be using Git Bash, \emph{not} a GUI client.  If you are using Windows 10,
+   be using Git Bash, *not* a GUI client.  If you are using Windows 10,
    then you can consider using the Ubuntu Linux Subsystem and running `git`
    from there (see note about how to install `python` for this setup below).
 
