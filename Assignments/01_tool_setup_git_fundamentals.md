@@ -4,19 +4,22 @@
 1. Create an account on GitHub (https://github.com).
 
 1. Download and install `git` at https://git-scm.com.  We will
-   be using Git Bash, \emph{not} a GUI client.
+   be using Git Bash, \emph{not} a GUI client.  If you are using Windows 10,
+   then you can consider using the Ubuntu Linux Subsystem and running `git`
+   from there (see note about how to install `python` for this setup below).
 
 1. Setup an SSH key to seamlessly push/pull to/from your GitHub repositories:
-https://help.github.com/articles/connecting-to-github-with-ssh/
+   https://help.github.com/articles/connecting-to-github-with-ssh/
 
 1. Download and install `python3` at https://www.python.org/. Be sure to
    install Python 3.6, *not* Python 2.7.  Note that if you are using Windows,
    you should consider either:
   + Installing and using the Ubuntu Linux Subsystem (Windows 10), and running
-    \verb+python3+ from within that environment, or
-  + Install Conda python from https://www.continuum.io/downloads.
-Using "vanilla" Python on Windows can have challenges with importing some
-packages, such as `numpy`, which do not exist in compiled wheels for Windows.
+    `python3` from within that environment, or
+  + Install Conda python from https://www.continuum.io/downloads.  Using
+    "vanilla" Python on Windows can have challenges with importing some
+    packages, such as `numpy`, which do not exist in compiled wheels for
+    Windows.
 
 1. You will want a code writing environment that makes life easier for you as
   your projects get more complex.  Options include:
