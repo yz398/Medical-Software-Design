@@ -10,7 +10,8 @@
 * We are going to use a Jupyer notebook for the first part of this assignment.
 
 ## Exploring Python Syntax
-* Clone this repository (or fork is you might want to submit a Pull Request with changes at some point): https://github.com/mlp6/Medical-Software-Design
+* Clone this repository (or fork is you might want to submit a Pull Request
+  with changes at some point): https://github.com/mlp6/Medical-Software-Design
 * Create a local virtual environment with the packages in `requirements.txt`.
 * Activate your virtual environment.
 * Change into the `Assignments` directory and run `jupyter notebook
@@ -18,7 +19,7 @@
   has an address that starts with `127.0.0.1` or `localhost`; your web browser
   might automatically be launched with this page too.
 * Work through the interactive notebook exercise.
-* **TODO: Come up with a way to evaluate this is completed.**
+* Render a PDF of your completed notebook and attach it to your Sakai assignment.
 
 ## Mini-project
 * We are going to start putting your `git` and `python` skills to use!
@@ -38,7 +39,10 @@
   + Checks that there are no spaces in the team name that a student specified.
   + Counts how many team names used CamelCase, and prints that could to
     `STDOUT` when the program finishes writing the file.
-  + In addition to writing a CSV file, create a JSON-formatted file called
-    `everyone.json`.
+  + In addition to CSV, JSON is a very popular format. For each of the CSV
+    files in the repository, have you code also generate a `$NETID.json`
+    formatted file (i.e., for each `$NETID.csv` file, there should also be a
+    `$NETID.json` file).
 * Submit a Pull Request that has your modular code, along with `everyone.csv`
-  and `everyone.json`, and assign `suyashkumar` and `mlp6` as Reviewers.
+  and all of the `$NETID.json` files, and assign `suyashkumar` and `mlp6` as
+  Reviewers.
