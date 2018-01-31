@@ -85,5 +85,3 @@ if __name__ == "__main__":
     main()
 ```
 * All of the functions above, except for main, should be testable.
-
-## Mission 02
